@@ -1,0 +1,19 @@
+venv/
+data/uploads/*
+data/chroma_db/*
+data/cache/*
+data/exports/*
+!data/uploads/.gitkeep
+!data/chroma_db/.gitkeep
+!data/cache/.gitkeep
+!data/exports/.gitkeep
+data/app.db
+.env
+__pycache__/
+*.pyc
+
+# Misc
+tests/_sample_*.pdf
+*.log
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+services:
+  autosar-hld-assistant:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
